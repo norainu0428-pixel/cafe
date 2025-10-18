@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メニュー - 喫茶室 木漏れ日</title>
+    <meta name="description" content="喫茶室 木漏れ日のメニューをご紹介。店主自慢のブレンドコーヒー、奥様手作りのスイーツ、軽食など、昭和の味わいをお楽しみください。">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-info">
+                    <span class="phone"><i class="fas fa-phone"></i> 03-1234-5678</span>
+                    <span class="hours"><i class="fas fa-clock"></i> 7:00-19:00 (定休日: 水曜日)</span>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <div class="logo-icon">☕</div>
+                    <div class="logo-text">
+                        <h1>喫茶室 木漏れ日</h1>
+                        <p>KOMOREBI COFFEE</p>
+                    </div>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html" class="nav-link">ホーム</a></li>
+                    <li><a href="story.html" class="nav-link">お店の物語</a></li>
+                    <li><a href="menu.html" class="nav-link active">メニュー</a></li>
+                    <li><a href="atmosphere.html" class="nav-link">店内の雰囲気</a></li>
+                    <li><a href="access.html" class="nav-link">アクセス</a></li>
+                </ul>
+                <button class="menu-btn" aria-label="メニューを開く" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <!-- ページヘッダー -->
+        <section class="page-header">
+            <div class="container">
+                <div class="page-title">
+                    <h1>メニュー</h1>
+                    <p class="page-subtitle">店主自慢の味をご堪能ください</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- メニュー -->
+        <section class="menu">
+            <div class="container">
+                <div class="menu-categories">
+                    <div class="menu-category">
+                        <h3 class="category-title">☕ コーヒー</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>ブレンドコーヒー</h4>
+                                    <span class="price">¥450</span>
+                                </div>
+                                <p class="item-description">店主が50年かけて完成させたオリジナルブレンド。深いコクと上品な酸味が特徴です。毎朝、新鮮な豆を挽いて淹れています。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>カフェオレ</h4>
+                                    <span class="price">¥500</span>
+                                </div>
+                                <p class="item-description">フランス式のカフェオレ。温かいミルクとコーヒーの絶妙なバランス。朝の一杯にぴったりです。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>ウィンナーコーヒー</h4>
+                                    <span class="price">¥550</span>
+                                </div>
+                                <p class="item-description">昭和の喫茶店の定番。ふわふわのホイップクリームが贅沢な一杯。甘いものがお好きな方におすすめです。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>アイスコーヒー</h4>
+                                    <span class="price">¥450</span>
+                                </div>
+                                <p class="item-description">夏の定番。熱いコーヒーを急冷して作る、香り高いアイスコーヒー。暑い日でも美味しくお召し上がりいただけます。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>エスプレッソ</h4>
+                                    <span class="price">¥400</span>
+                                </div>
+                                <p class="item-description">濃厚で香り高い一杯。本格的なコーヒーをお求めの方に。小さなカップでじっくりとお楽しみください。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>カプチーノ</h4>
+                                    <span class="price">¥550</span>
+                                </div>
+                                <p class="item-description">バランスの取れた味わい。ミルクフォームの美しい模様もお楽しみください。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-category">
+                        <h3 class="category-title">🍰 スイーツ</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>チーズケーキ</h4>
+                                    <span class="price">¥450</span>
+                                </div>
+                                <p class="item-description">店主の奥様が作る手作りチーズケーキ。ふわふわで軽やかな口当たり。毎日限定で作られています。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>アップルパイ</h4>
+                                    <span class="price">¥400</span>
+                                </div>
+                                <p class="item-description">国産りんごをたっぷり使った、ほっこり甘いアップルパイ。シナモンの香りが食欲をそそります。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>プリン</h4>
+                                    <span class="price">¥350</span>
+                                </div>
+                                <p class="item-description">昔ながらの手作りプリン。なめらかで濃厚な味わい。カラメルソースが絶品です。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>チョコレートケーキ</h4>
+                                    <span class="price">¥500</span>
+                                </div>
+                                <p class="item-description">濃厚なチョコレートの味わい。甘さ控えめで、大人の方にもおすすめです。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>マフィン</h4>
+                                    <span class="price">¥350</span>
+                                </div>
+                                <p class="item-description">ふんわりとした手作りマフィン。ブルーベリーやチョコチップなど、季節によって味が変わります。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>クッキー</h4>
+                                    <span class="price">¥200</span>
+                                </div>
+                                <p class="item-description">香ばしい手作りクッキー。コーヒーと一緒にどうぞ。お土産にも人気です。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-category">
+                        <h3 class="category-title">🍞 軽食</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>トーストセット</h4>
+                                    <span class="price">¥600</span>
+                                </div>
+                                <p class="item-description">厚切り食パンのトースト、サラダ、コーヒーがセットになった朝食定番。朝からしっかりとお召し上がりいただけます。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>サンドイッチ</h4>
+                                    <span class="price">¥550</span>
+                                </div>
+                                <p class="item-description">ハム、レタス、トマトのシンプルなサンドイッチ。パンは近所のパン屋さんから仕入れています。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>パニーニ</h4>
+                                    <span class="price">¥750</span>
+                                </div>
+                                <p class="item-description">具だくさんの温かいパニーニ。チーズと野菜の組み合わせが絶妙です。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>スープ</h4>
+                                    <span class="price">¥500</span>
+                                </div>
+                                <p class="item-description">季節の野菜を使った温かいスープ。体が温まる、心のこもった一品です。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-category">
+                        <h3 class="category-title">🍵 その他のドリンク</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>紅茶</h4>
+                                    <span class="price">¥400</span>
+                                </div>
+                                <p class="item-description">香り高い紅茶。レモンやミルクと一緒にお楽しみください。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>ハーブティー</h4>
+                                    <span class="price">¥450</span>
+                                </div>
+                                <p class="item-description">リラックス効果のあるハーブティー。お好みのフレーバーをお選びください。</p>
+                            </div>
+                            <div class="menu-item">
+                                <div class="item-name">
+                                    <h4>フレッシュジュース</h4>
+                                    <span class="price">¥500</span>
+                                </div>
+                                <p class="item-description">季節のフルーツを使ったフレッシュジュース。健康志向の方におすすめです。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- メニューのこだわり -->
+        <section class="menu-philosophy">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">メニューのこだわり</h2>
+                    <p class="section-subtitle">店主の想いが込められた一杯一杯</p>
+                </div>
+                <div class="philosophy-content">
+                    <div class="philosophy-item">
+                        <div class="philosophy-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <div class="philosophy-text">
+                            <h3>厳選されたコーヒー豆</h3>
+                            <p>世界中から厳選したコーヒー豆を使用。毎朝、店主が豆の状態を確認し、その日の最適な挽き具合で淹れています。</p>
+                        </div>
+                    </div>
+                    <div class="philosophy-item">
+                        <div class="philosophy-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="philosophy-text">
+                            <h3>手作りの温かさ</h3>
+                            <p>スイーツは店主の奥様が一つ一つ手作り。機械では作れない、人の手の温かさを感じていただけます。</p>
+                        </div>
+                    </div>
+                    <div class="philosophy-item">
+                        <div class="philosophy-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="philosophy-text">
+                            <h3>地元の新鮮な食材</h3>
+                            <p>可能な限り地元の新鮮な食材を使用。地域の生産者との信頼関係を大切にしています。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">☕</div>
+                        <div class="logo-text">
+                            <h3>喫茶室 木漏れ日</h3>
+                            <p>KOMOREBI COFFEE</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">1975年創業。昭和の香りがする喫茶室で、<br>心温まるコーヒーと懐かしい時間をお過ごしください。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>メニュー</h4>
+                    <ul>
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="story.html">お店の物語</a></li>
+                        <li><a href="menu.html">メニュー</a></li>
+                        <li><a href="atmosphere.html">店内の雰囲気</a></li>
+                        <li><a href="access.html">アクセス</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>お問い合わせ</h4>
+                    <p><i class="fas fa-phone"></i> 03-1234-5678</p>
+                    <p><i class="fas fa-clock"></i> 7:00-19:00 (水曜定休)</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 東京都渋谷区神宮前1-2-3</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 喫茶室 木漏れ日. All rights reserved.</p>
+                <p class="footer-note">このサイトは店主の想いを込めて作られました。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
